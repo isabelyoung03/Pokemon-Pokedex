@@ -3,6 +3,7 @@ public class Scorbunny extends Pokemon {
         super("Scorbunny", Type.FIRE);
     }
     public Scorbunny(String nickname) {
+
         super("Scorbunny", Type.FIRE, nickname);
     }
     @Override
