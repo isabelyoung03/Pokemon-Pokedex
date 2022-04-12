@@ -20,6 +20,7 @@ public class PokemonParty {
         }
     }
     public void listParty() {
+        System.out.println("++++ Your Pokemon party: ++++");
         for (int i = 0; i < 6; i++) {
             if (i < totalPokemon) {
                 Pokemon p = partyPokemon[i];
@@ -32,5 +33,6 @@ public class PokemonParty {
                 System.out.println(i+1 + ". Empty");
             }
         }
+        System.out.println("+++++++++++++++++++++++++++++");
     }
 }

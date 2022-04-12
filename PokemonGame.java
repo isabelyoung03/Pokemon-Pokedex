@@ -23,5 +23,7 @@ public class PokemonGame {
         party.addMember(scorbunny1);
         party.addMember(scorbunny2);
         party.listParty();
+
+        oshawott.attack();
     }
 }
