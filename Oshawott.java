@@ -1,6 +1,6 @@
 public class Oshawott extends Pokemon {
     public Oshawott() {
-        super("Oshawott", Type.WATER, null);
+        super("Oshawott", Type.WATER);
     }
     public Oshawott(String nickname) {
         super("Oshawott", Type.WATER, nickname);

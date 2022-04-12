@@ -1,6 +1,6 @@
 public class Scorbunny extends Pokemon {
     public Scorbunny() {
-        super("Scorbunny", Type.FIRE, null);
+        super("Scorbunny", Type.FIRE);
     }
     public Scorbunny(String nickname) {
         super("Scorbunny", Type.FIRE, nickname);

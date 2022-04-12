@@ -1,6 +1,6 @@
 public class Pikachu extends Pokemon {
     public Pikachu() {
-        super("Pikachu", Type.ELECTRIC, null);
+        super("Pikachu", Type.ELECTRIC);
     }
     public Pikachu(String nickname) {
         super("Pikachu", Type.ELECTRIC, nickname);
