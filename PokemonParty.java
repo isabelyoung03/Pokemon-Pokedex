@@ -1,3 +1,5 @@
+import pokemon.Pokemon;
+
 public class PokemonParty {
     private Pokemon[] partyPokemon;
     private int current;
@@ -30,7 +32,7 @@ public class PokemonParty {
         }
     }
     public void listParty() {
-        System.out.println("++++ Your Pokemon party: ++++");
+        System.out.println("++++ Your pokemon.Pokemon party: ++++");
         for (int i = 0; i < 6; i++) {
             if (i < totalPokemon) {
                 Pokemon p = partyPokemon[i];

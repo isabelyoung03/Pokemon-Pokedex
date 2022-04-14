@@ -1,12 +1,16 @@
+package pokemon;
+
+import pokemon.Pokemon;
+
 import java.util.Random;
 
-public class Chikorita extends Pokemon{
+public class Chikorita extends Pokemon {
     public Chikorita() {
-        super("Chikorita", Type.GRASS);
+        super("pokemon.Chikorita", Type.GRASS);
     }
     public Chikorita(String nickname) {
 
-        super("Chikorita", Type.GRASS, nickname);
+        super("pokemon.Chikorita", Type.GRASS, nickname);
     }
     @Override
     public void attack() {
@@ -17,10 +21,10 @@ public class Chikorita extends Pokemon{
         Random random = new Random();
         switch (random.nextInt(2)) {
             case 0:
-                System.out.println("Chikorita is waving its leaf around.");
+                System.out.println("pokemon.Chikorita is waving it's leaf around.");
                 break;
             case 1:
-                System.out.println("Chikorita is very happy!");
+                System.out.println("pokemon.Chikorita is very happy!");
                 break;
 
         }

@@ -1,9 +1,13 @@
+package pokemon;
+
+import pokemon.Pokemon;
+
 public class Oshawott extends Pokemon {
     public Oshawott() {
-        super("Oshawott", Type.WATER);
+        super("pokemon.Oshawott", Type.WATER);
     }
     public Oshawott(String nickname) {
-        super("Oshawott", Type.WATER, nickname);
+        super("pokemon.Oshawott", Type.WATER, nickname);
     }
     @Override
     public void attack() {

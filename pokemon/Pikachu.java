@@ -1,10 +1,14 @@
+package pokemon;
+
+import pokemon.Pokemon;
+
 public class Pikachu extends Pokemon {
     public Pikachu() {
-        super("Pikachu", Type.ELECTRIC);
+        super("pokemon.Pikachu", Type.ELECTRIC);
     }
     public Pikachu(String nickname) {
 
-        super("Pikachu", Type.ELECTRIC, nickname);
+        super("pokemon.Pikachu", Type.ELECTRIC, nickname);
     }
     @Override
     public void attack() {

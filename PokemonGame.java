@@ -1,3 +1,6 @@
+import items.Berry;
+import pokemon.*;
+
 /**
  * @author Isabel Young
  */
@@ -7,10 +10,10 @@ public class PokemonGame {
         Oshawott oshawott = new Oshawott("Otter Boy");
         Pikachu pikachu = new Pikachu("Spark");
         Scorbunny scorbunny = new Scorbunny();
-        Charizard charizard = new Charizard();
-        Morpeko morpeko = new Morpeko();
+        Morpeko morpeko = new Morpeko("Nibbles");
         Mimikyu mimikyu = new Mimikyu("Spook");
         Chikorita chikorita = new Chikorita("Leafy Greens");
+        Sylveon sylveon = new Sylveon();
 
         oshawott.attack();
         pikachu.attack();
@@ -33,7 +36,7 @@ public class PokemonGame {
         party.removeMember(scorbunny);
         party.listParty();
 
-        party.addMember(charizard);
+        party.addMember(sylveon);
         party.listParty();
 
         party.getCurrent().interact();
@@ -41,5 +44,7 @@ public class PokemonGame {
         mimikyu.eatBerry(Berry.ORAN);
 
         morpeko.eatBerry(Berry.PECHA);
+
+        sylveon.interact();
     }
 }

@@ -1,10 +1,14 @@
+package pokemon;
+
+import pokemon.Pokemon;
+
 public class Charizard extends Pokemon {
     public Charizard() {
-        super("Charizard", Type.FIRE);
+        super("pokemon.Charizard", Type.FIRE);
     }
     public Charizard(String nickname) {
 
-        super("Charizard", Type.FIRE, nickname);
+        super("pokemon.Charizard", Type.FIRE, nickname);
     }
     @Override
     public void attack() {

@@ -1,10 +1,12 @@
+package pokemon;
+
 public class Scorbunny extends Pokemon {
     public Scorbunny() {
-        super("Scorbunny", Type.FIRE);
+        super("pokemon.Scorbunny", Type.FIRE);
     }
     public Scorbunny(String nickname) {
 
-        super("Scorbunny", Type.FIRE, nickname);
+        super("pokemon.Scorbunny", Type.FIRE, nickname);
     }
     @Override
     public void attack() {

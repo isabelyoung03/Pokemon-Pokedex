@@ -1,10 +1,14 @@
-public class Mimikyu extends Pokemon{
+package pokemon;
+
+import pokemon.Pokemon;
+
+public class Mimikyu extends Pokemon {
     public Mimikyu() {
-        super("Mimikyu", Type.GHOST);
+        super("pokemon.Mimikyu", Type.GHOST);
     }
     public Mimikyu(String nickname) {
 
-        super("Mimikyu", Type.GHOST, nickname);
+        super("pokemon.Mimikyu", Type.GHOST, nickname);
     }
     @Override
     public void attack() {

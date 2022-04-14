@@ -1,3 +1,7 @@
+package pokemon;
+
+import items.Berry;
+
 import java.util.Random;
 
 abstract public class Pokemon {
@@ -88,12 +92,12 @@ abstract public class Pokemon {
             fainted = true;
             System.out.println(this.nickname + " has fainted!");
         }
-        System.out.printf("Your Pokemon's health is now %s/%s \n", this.health, this.maxHealth);
+        System.out.printf("Your pokemon.Pokemon's health is now %s/%s \n", this.health, this.maxHealth);
     }
     public void eatBerry(Berry berry) {
         health += 20;
         if (health > 100) { health = 100; }
-        System.out.printf("%s ate %s Berry. Health is now %s/%s \n", this.nickname, berry.toString(), this.health, this.maxHealth);
+        System.out.printf("%s ate %s items.Berry. Health is now %s/%s \n", this.nickname, berry.toString(), this.health, this.maxHealth);
     }
     public void heal() {
         health = maxHealth;

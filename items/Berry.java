@@ -1,3 +1,5 @@
+package items;
+
 public enum Berry {
     CHERI,
     PECHA,
