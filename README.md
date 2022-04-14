@@ -1,2 +1,2 @@
-# pokemon.Pokemon-Pokedex
+# Pokemon-Pokedex
 Revision of abstract classes and inheritance - using Pokemon!
